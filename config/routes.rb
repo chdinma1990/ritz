@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root 'home#index'
- get 'about' => 'about#us'
+ get '/about' => 'about#us'
  get 'services' => 'services#new'
  get 'portfolio' => 'portfolio#new'
  get 'contacts' => 'contacts#new'
